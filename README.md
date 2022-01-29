@@ -1,6 +1,6 @@
 # Rize Front End Engineering Challenge
 
-Welcome Candidate and thank you for taking the time to complete the DailyPay take-home challenge for our senior frontend engineer position
+Welcome Candidate and thank you for taking the time to complete the take-home challenge for our senior frontend engineer position
 
 You will have 2 days to complete the assignment. Once you have completed your solution, please reply with a link to a github repository and instructions on how to install / run the application
 
