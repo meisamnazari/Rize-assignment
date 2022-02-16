@@ -3,7 +3,7 @@ import { shallow } from "enzyme";
 import CategoryHeader from "../CategoryHeader/CategoryHeader";
 
 let props = {
-        title: "Best Actor",
+    title: "Best Actor",
 }
 let wrapped;
 

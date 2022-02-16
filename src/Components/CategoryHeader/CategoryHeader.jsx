@@ -1,10 +1,8 @@
 import React from "react";
-import  classes from './CategoryHeader.module.css';
-
+import classes from "./CategoryHeader.module.css";
 
 const CategoryHeader = (props) => {
-    
-  const {title}=props
+  const { title } = props;
 
   return <div className={classes.header}>{title}</div>;
 };

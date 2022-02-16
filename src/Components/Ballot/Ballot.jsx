@@ -80,6 +80,7 @@ const Ballot = () => {
                       onNomineeClick(categoryItem.id, nomineeItem)
                     }
                     selected={selectedCardFunc(categoryItem.id, nomineeItem)}
+                    id={`${categoryIndex}-${nomineeIndex}`}
                   />
                 );
               })}
@@ -88,7 +89,11 @@ const Ballot = () => {
         );
       })}
       <div className={classes.buttonWrapper}>
-        <div className={classes.submitButton} onClick={() => onSubmitClick()}>
+        <div
+          className={classes.submitButton}
+          onClick={() => onSubmitClick()}
+          id={"submitButton"}
+        >
           Submit
         </div>
       </div>

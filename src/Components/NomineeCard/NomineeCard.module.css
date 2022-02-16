@@ -30,7 +30,7 @@ img {
 }
 
 .button {
-  padding: 10px ;
+  padding: 10px;
   cursor: pointer;
   text-align: center;
   font-weight: bold;
@@ -38,9 +38,8 @@ img {
 }
 
 .selectedText {
-    padding: 10px ;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-  }
-  
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}

@@ -29,7 +29,7 @@
 .submitButton:hover {
   background-color: #34ac9c;
   color: #cccccc;
-} 
+}
 
 @media only screen and (max-width: 1450px) {
   .nomineesWrapper {
@@ -38,17 +38,16 @@
 }
 
 @media only screen and (max-width: 1000px) {
-    .nomineesWrapper {
-      justify-content: center;
-    }
-    .buttonWrapper {
-        justify-content: center;
-      }
+  .nomineesWrapper {
+    justify-content: center;
   }
-
-  @media only screen and (max-width: 760px) {
-    .buttonWrapper {
-        justify-content: center;
-      }
+  .buttonWrapper {
+    justify-content: center;
   }
+}
 
+@media only screen and (max-width: 760px) {
+  .buttonWrapper {
+    justify-content: center;
+  }
+}

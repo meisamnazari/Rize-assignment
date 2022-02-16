@@ -7,7 +7,7 @@ let props = {
         title: "Mank",
         photoUrL: 'https://variety.com/wp-content/uploads/2020/12/mank.jpg',
     },
-    selected:false
+    selected: false
 }
 let wrapped;
 
