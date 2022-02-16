@@ -1,0 +1,54 @@
+.category {
+  padding: 20px;
+}
+
+.nomineesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.submitButton {
+  background-color: #009b86;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  background-color: #34ac9c;
+  color: #cccccc;
+} 
+
+@media only screen and (max-width: 1450px) {
+  .nomineesWrapper {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+    .nomineesWrapper {
+      justify-content: center;
+    }
+    .buttonWrapper {
+        justify-content: center;
+      }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .buttonWrapper {
+        justify-content: center;
+      }
+  }
+

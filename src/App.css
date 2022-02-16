@@ -1,5 +1,10 @@
+body {
+  background-color: #0d2436;
+  font-family: Roboto;
+  color: #ffffff;
+}
 .App {
-  text-align: center;
+  width: 100%;
 }
 
 .App-logo {
